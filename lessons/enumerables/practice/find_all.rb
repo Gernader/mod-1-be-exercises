@@ -13,11 +13,14 @@ def find_all_even_numbers # done for you
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
     numbers.find_all do |number|
+      number.odd
       # Your code goes here
     end
 
     #  expected return value is [1, 3, 5, 7, 9]
   end
+
+  p find_all_odd_numbers
 
   def find_all_words_with_three_letters
     words = ["pill", "bad", "finger", "cat", "blue", "dog", "table", "red"]

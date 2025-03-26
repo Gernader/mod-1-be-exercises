@@ -5,8 +5,9 @@
 def capitalize
     names = ["alice", "bob", "charlie"]
 
-    # Your code goes here
-
+    names.map do |name|
+        name.capitalize
+    end
     # expected return value is ["Alice", "Bob", "Charlie"]
 end
 
